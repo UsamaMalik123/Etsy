@@ -1,0 +1,36 @@
+.app__testimonials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+.app__testimonials p {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(38, 15, 157);
+  }
+ 
+  .app__testimonials h1 {
+    font-size: 24px;
+    max-width: 250px;
+  }
+  .card-container{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+   gap: 2rem;
+  }
+  .project-carousel-container {
+    width: 100%;
+    padding-top: 5px;
+    height: 230px;
+ 
+ 
+   margin-top: 2rem;
+    min-height: auto; /* Increase the minimum height */
+    overflow-y: hidden; /* Disable vertical scrollbar */
+}
+.slick-slide {
+  margin-right: 1rem; /* Adjust the value as needed */
+}

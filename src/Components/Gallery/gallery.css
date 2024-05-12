@@ -1,0 +1,63 @@
+.app__gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+.app__gallery p {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(38, 15, 157);
+  }
+  
+  .app__gallery h1 {
+    font-size: 24px;
+    max-width: 250px;
+  }
+  .image-grid {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .image-grid img {
+    width: calc(50% - 20px); /* Adjust width to fit two images in one row */
+    max-width: 200px; /* Set a maximum width to ensure images don't become too large */
+    height: auto;
+    margin: 10px; /* Adjust margin for spacing between images */
+  }
+  .app__gallery_btn{
+    background: rgb(71, 47, 193);
+    color: #212121;
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+  }
+  .app__gallery-custom-button {
+    margin-top: 1rem;
+    background-color:rgb(71, 47, 193);
+    color: white; /* Text color */
+    padding: 8px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 20px; /* Adjust border radius as needed */
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+  .arrow-icon {
+    width: 13px; /* Adjust icon size as needed */
+    margin-left: 5px; /* Adjust icon position as needed */
+  }
+  @media screen and (max-width: 600px) {
+    .image-grid img {
+      width: 100%; /* Adjust width to fill the container on smaller screens */
+      margin: 5px 0; /* Adjust margin for better spacing */
+    }
+  }

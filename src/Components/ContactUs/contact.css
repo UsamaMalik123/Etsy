@@ -1,0 +1,263 @@
+.app__contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  
+ 
+  
+}
+.app__contact_content-section{
+  display: flex;
+  width: 100%;
+  
+    flex-direction: row;
+    margin-top: 4rem;
+   
+}
+.app__leftside{
+  color: #898989;
+    display: flex;
+ 
+     
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    gap: 0.6rem;
+     
+}
+.app__contact__sendmessage{
+  display: flex;
+  align-items: center;
+}
+.app__contact__sendmessage img{
+  display: flex;
+  height: 30px;
+  width: 30px;
+}
+.app__contact__details-section{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+.app__contact__details-section p{
+  font-size: 14px;
+ 
+}
+.app__leftside p{
+  max-width: 350px;
+}
+.app__contact__details-section img{
+  width: 25px;
+  height: 25px;
+}
+.app__getintouch-leftside img {
+  display: flex;
+  height: auto;
+  width: 100px;
+ 
+ 
+}
+.app__getintouch-rightside{
+    display: flex;
+    flex: 1;
+   
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    gap: 5px;
+    
+      
+}
+ .app__getintouch-input-fields{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0;
+
+ }
+ .app__getintouch-input-fields p{
+  font-size: 14px;
+ }
+.custom-input {
+    margin-top: 10px;
+    width: 100%;
+    background-color:#EAEDFA;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+   /* Adjust spacing between input fields */
+    outline: none;
+  }
+  
+  .custom-input:focus {
+    border: none;/* Change border color on focus */
+  }
+  
+  .custom-textarea {
+    width: 100%; /* Subtract the total margin and padding of the input fields */
+    background-color:#EAEDFA;
+    height: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px; /* Adjust spacing from input fields */
+    resize: vertical; /* Allow vertical resizing */
+    outline: none;
+  }
+  
+  .custom-textarea:focus {
+    border: none; /* Change border color on focus */
+  }
+  
+  /* Style for placeholder text in textarea */
+  .custom-textarea::placeholder {
+    color: #aaa; /* Adjust placeholder text color */
+  }
+  
+  /* Style for textarea when user starts typing */
+  .custom-textarea:focus::placeholder {
+    color: transparent; /* Hide placeholder text when textarea is focused */
+  }
+  /* Styles for the send button */
+.send-button {
+  padding: 12px 60px;
+  background: var(--gradient-bg);
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  background-color: #472FC1;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.send-button:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}
+.app__getintouch-texbox-btn{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  
+}
+@media (max-width: 1024px) {
+  .app__getintouch {
+    flex-direction: column;
+    height: auto; /* Set height to auto for tablets */
+     
+  }
+
+  .app__getintouch-rightside {
+    padding: 10px; /* Adjust padding on smaller screens */
+  }
+
+  .app__getintouch-leftside img {
+ 
+    width:80%;
+   
+  }
+  .send-button {
+    padding: 30px 160px;
+    font-size: 20px;
+  }
+   
+}
+
+
+@media (max-width: 768px) {
+  .app__getintouch {
+    flex-direction: column; /* Change to column layout on smaller screens */
+  }
+
+  .app__getintouch-rightside {
+    padding: 10px; /* Adjust padding on smaller screens */
+  }
+
+  .custom-input {
+    padding: 8px;
+  }
+  .send-button {
+    padding: 15px 80px;
+    font-size: 20px;
+  }
+}
+
+
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 1024px) {
+  .app__contact {
+    padding-top: 2rem; /* Adjust top padding */
+  }
+
+  .app__contact_content-section {
+    flex-direction: column; /* Change to column layout on smaller screens */
+    align-items: center; /* Center content horizontally */
+    gap: 2rem; /* Increase gap between sections */
+  }
+
+  .app__leftside p {
+    max-width: 90%; /* Adjust max-width for text content */
+    text-align: center; /* Center text content */
+  }
+
+  .app__getintouch-rightside {
+    width: 100%; /* Set width to 100% */
+  }
+
+  .send-button {
+    padding: 12px 40px; /* Adjust button padding */
+    font-size: 16px; /* Decrease button font size */
+  }
+}
+
+@media (max-width: 768px) {
+  .app__contact {
+    padding-top: 2rem; /* Adjust top padding */
+  }
+
+.app__leftside{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+  .app__leftside p {
+    max-width: 90%; /* Adjust max-width for text content */
+    text-align: center; /* Center text content */
+  }
+
+  .send-button {
+    padding: 10px 30px; /* Adjust button padding */
+    font-size: 14px; /* Decrease button font size */
+  }
+}
+
+@media (max-width: 576px) {
+  .app__leftside p {
+    max-width: 90%; /* Adjust max-width for text content */
+    text-align: center; /* Center text content */
+  }
+
+  .custom-input {
+    font-size: 12px; /* Decrease input font size */
+    padding: 8px; /* Adjust input padding */
+  }
+
+  .send-button {
+    padding: 8px 20px; /* Adjust button padding */
+    font-size: 12px; /* Decrease button font size */
+  }
+}
