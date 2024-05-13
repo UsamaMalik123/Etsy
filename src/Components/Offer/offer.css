@@ -49,8 +49,11 @@
   align-items: center;
   opacity: 0;
   transition: opacity 0.3s ease;
+  color:white
 }
-
+.overlay p{
+  color: white;
+}
 .image-wrapper:hover .overlay {
   opacity: 1;
 }

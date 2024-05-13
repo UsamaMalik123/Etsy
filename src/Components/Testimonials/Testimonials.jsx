@@ -4,7 +4,8 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Review from '../Review/Review';
-import dp from '../../assets/profile.png';
+import dp1 from '../../assets/review1.jpg';
+import dp2 from '../../assets/review2.jpg';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -50,13 +51,13 @@ const Testimonials = () => {
             <div className="project-carousel-container">
                 <Slider {...settings} className="slider">
                     <Review
-                        img={dp}
+                        img={dp1}
                         review="The faculty's dedication to student success is evident, fostering a supportive learning environment. The diverse campus community encourages collaboration and understanding. The resources provided, from modern facilities to engaging extracurriculars, enhance the overall educational experience. Highly recommended for those seeking a fulfilling university experience"
                         name='Emily Williams'
                         location="Edusity,USA"
                     />
                     <Review
-                        img={dp}
+                        img={dp2}
                         review="The faculty's dedication to student success is evident, fostering a supportive learning environment. The diverse campus community encourages collaboration and understanding. The resources provided, from modern facilities to engaging extracurriculars, enhance the overall educational experience. Highly recommended for those seeking a fulfilling university experience"
                         name='Emily Williams'
                         location="Edusity,USA"
