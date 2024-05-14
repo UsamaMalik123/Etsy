@@ -8,8 +8,8 @@ const Contact = () => {
   return (
     <div className=' container  app__contact'>
        
-        <p>Contact Us</p>
-        <h1 style={{color:'#232D3E'}}>Get In Touch</h1>
+        <p style={{color:'rgb(38, 15, 157)',fontSize:'14px',fontWeight:'bold'}}>Contact Us</p>
+        <h1 style={{color:'#232D3E',fontSize:'24px'}}>Get In Touch</h1>
         <div className='app__contact_content-section'>
             <div className='app__leftside'>
                 <div className='app__contact__sendmessage'>

@@ -44,8 +44,8 @@ const Testimonials = () => {
 
     return (
         <div className='container app__testimonials' id='Testimonials'>
-            <p>Gallery</p>
-            <h1>Campus Photos</h1>
+            <p>Testimonials</p>
+            <h1>What Student Says</h1>
 
             
             <div className="project-carousel-container">
